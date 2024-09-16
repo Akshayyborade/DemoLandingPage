@@ -13,7 +13,7 @@ header{
     align-items: center;
     color: white;
     background-color: #1F2937;
-    padding: 10px 150px;
+    padding: 10px 120px;
 }
 .left-links{
     font-size: 24px;
@@ -31,4 +31,52 @@ ul{
 a{
     text-decoration: none;
     color: #e5e7eb;
+}
+main{
+   display: flex;
+   flex:1; 
+   justify-content: center;
+   align-items: center;
+}
+.hero-img img{ 
+    width: 350px;
+    height: 200px;
+}
+.hero{
+    display: flex;
+    background-color: #1F2937;
+    padding: 50px 120px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex: 1;
+ 
+
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.hero-title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.hero-subtitle{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: inline;
+    width: fit-content;
+
 }
