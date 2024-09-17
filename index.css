@@ -119,3 +119,25 @@ main{
 .card-text{
     text-align: center;
 }
+/*  */
+.quotes{
+    background-color: #e5e7eb;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.quotes-content{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+
+}
+.author{
+   text-align-last: right; 
+   font-weight: bold;
+}
+/*  */
+
