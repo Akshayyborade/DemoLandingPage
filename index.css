@@ -5,7 +5,7 @@
 body{
     display: flex;
     flex-direction: column;
-    
+    font-family: 'Roboto', sans-serif;  
 }
 header{
     display: flex;
@@ -35,7 +35,7 @@ a{
 main{
    display: flex;
    flex-direction: column;
-   flex:1; 
+ 
    justify-content: center;
    align-items: center;
 }
@@ -51,7 +51,8 @@ main{
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-    flex: 1;
+   
+   
  
 
 }
@@ -59,6 +60,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 15px;
+  
 }
 .hero-title{
     font-size: 48px;
@@ -140,4 +142,33 @@ main{
    font-weight: bold;
 }
 /*  */
+.contact{
+    padding: 100px 150px;
+}
+.contact-us{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 10px;
+    gap: 50px;
+    color: #f9faf8;
+}
+.contact-button{
+    display: flex;
+    align-items: center;
+}
+.contact-button button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: small;
+    border: 2px solid #f9faf8;
+    
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: max-content;
 
+
+}
